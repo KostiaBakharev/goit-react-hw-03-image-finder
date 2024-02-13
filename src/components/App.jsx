@@ -1,3 +1,8 @@
+import ImageSearch from './ImageSearch/ImageSearch';
 export const App = () => {
-  return;
+  return (
+    <div className="App">
+      <ImageSearch />
+    </div>
+  );
 };
